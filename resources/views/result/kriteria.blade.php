@@ -43,7 +43,7 @@
 
                               <div role="tabpanel" class="tab-pane active" id="kriteria">
                                 <h1 class="pull-right">
-                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpKri') !!}">Generate</a>
+                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpKri') !!}">Cek Hasil</a>
                                 </h1>
 
                                 @php
@@ -72,7 +72,7 @@
 
                               <div role="tabpanel" class="tab-pane" id="sub_kriteria">
                                 <h1 class="pull-right">
-                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpSub') !!}">Generate</a>
+                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpSub') !!}">Cek Hasil</a>
                                 </h1>
                                 @if ($data != null)
                                   @foreach ($kriterias as $key => $valk)
@@ -112,7 +112,7 @@
 
                               <div role="tabpanel" class="tab-pane" id="sapi">
                                 <h1 class="pull-right">
-                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpPem') !!}">Generate</a>
+                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpPem') !!}">Cek Hasil</a>
                                 </h1>
                                 @if ($hasilSapi != null)
                                 @foreach ($kriterias as $kraa => $vakra)
@@ -166,7 +166,7 @@
 
                       <div role="tabpanel" class="tab-pane active" id="kriteriafuz">
                         <h1 class="pull-right">
-                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzKri') !!}">Generate</a>
+                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzKri') !!}">Cek Hasil</a>
                         </h1>
                         @if ($hasilFuzzyKriteria != null)
                           <h4>Rekap Bobot Akhir Kriteria</h4>
@@ -192,7 +192,7 @@
 
                       <div role="tabpanel" class="tab-pane" id="sub_kriteriafuz">
                         <h1 class="pull-right">
-                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzSub') !!}">Generate</a>
+                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzSub') !!}">Cek Hasil</a>
                         </h1>
                         @if ($hasilFuzzySub != null)
                           @php
@@ -233,7 +233,7 @@
 
                       <div role="tabpanel" class="tab-pane" id="sapifuz">
                         <h1 class="pull-right">
-                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzPem') !!}">Generate</a>
+                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzPem') !!}">Cek Hasil</a>
                         </h1>
 
                         @if ($hasilFuzzySapi != null)

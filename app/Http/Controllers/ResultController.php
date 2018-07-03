@@ -59,72 +59,72 @@ class ResultController extends Controller
 
     public function gAhpKri(){
       if($this->storeResult()){
-        Flash::success('Berhasil generate hasil!');
+        Flash::success('Berhasil menampilkan hasil!');
 
         return redirect()->back();
       }
 
-      Flash::error('Gagal generate!');
+      Flash::error('Gagal menampilkan!');
 
       return redirect()->back();
     }
 
     public function gAhpSub(){
       if($this->storeSubComparison()){
-        Flash::success('Berhasil generate hasil!');
+        Flash::success('Berhasil menampilkan hasil!');
 
         return redirect()->back();
       }
 
-      Flash::error('Gagal generate!');
+      Flash::error('Gagal menampilkan!');
 
       return redirect()->back();
     }
 
     public function gAhpPem(){
       if($this->storeSapi()){
-        Flash::success('Berhasil generate hasil!');
+        Flash::success('Berhasil menampilkan hasil!');
 
         return redirect()->back();
       }
 
-      Flash::error('Gagal generate!');
+      Flash::error('Gagal menampilkan!');
 
       return redirect()->back();
     }
 
     public function gFuzKri(){
       if($this->storeFuzzyKri()){
-        Flash::success('Berhasil generate hasil!');
+        Flash::success('Berhasil menampilkan hasil!');
 
         return redirect()->back();
       }
 
-      Flash::error('Gagal generate!');
+      Flash::error('Gagal menampilkan!');
 
       return redirect()->back();
     }
 
     public function gFuzSub(){
       if($this->storeFuzzySub()){
-        Flash::success('Berhasil generate hasil!');
+        Flash::success('Berhasil menampilkan hasil!');
 
         return redirect()->back();
       }
 
-      Flash::error('Gagal generate!');
+      Flash::error('Gagal menampilkan!');
 
       return redirect()->back();
     }
 
     public function gFuzPem(){
       if($this->storeFuzSapi()){
-        Flash::success('Berhasil generate hasil!');
+        Flash::success('Berhasil menampilkan hasil!');
 
         return redirect()->back();
       }
 
-      Flash::error('Gagal generate!');
+      Flash::error('Gagal menampilkan!');
 
       return redirect()->back();
     }
@@ -436,7 +436,6 @@ class ResultController extends Controller
               foreach ($Si as $k => $v) {
 
                 if($key!=$k){
-
                   if ($value[1]>=$v[1]) {
                     $vektor[] = 1;
                   }elseif ($v[0]>=$value[2]) {

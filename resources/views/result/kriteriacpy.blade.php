@@ -35,7 +35,7 @@
                             <ul class="nav nav-tabs" role="tab-list">
                               <li role="presentation" class="active"><a href="#kriteria" aria-controls="kriteria" role="tab" data-toggle="tab"><b>Kriteria</b></a></li>
                               <li role="presentation" class=""><a href="#sub_kriteria" aria-controls="sub_kriteria" role="tab" data-toggle="tab"><b>Sub Kriteria</b></a></li>
-                              <li role="presentation" class=""><a href="#pemasok" aria-controls="pemasok" role="tab" data-toggle="tab"><b>Pemasok</b></a></li>
+                              <li role="presentation" class=""><a href="#pemasok" aria-controls="pemasok" role="tab" data-toggle="tab"><b>Sapi</b></a></li>
                             </ul>
 
                           <!-- Tab panes -->
@@ -43,7 +43,7 @@
 
                               <div role="tabpanel" class="tab-pane active" id="kriteria">
                                 <h1 class="pull-right">
-                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpKri') !!}">Generate</a>
+                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpKri') !!}">Cek Hasil</a>
                                 </h1>
                                 @php
                                 $arr = null;
@@ -68,7 +68,7 @@
 
                               <div role="tabpanel" class="tab-pane" id="sub_kriteria">
                                 <h1 class="pull-right">
-                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpSub') !!}">Generate</a>
+                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpSub') !!}">Cek Hasil</a>
                                 </h1>
                                 @if ($data != null)
                                   @foreach ($kriterias as $key => $valk)
@@ -108,7 +108,7 @@
 
                               <div role="tabpanel" class="tab-pane" id="pemasok">
                                 <h1 class="pull-right">
-                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpPem') !!}">Generate</a>
+                                   <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gAhpPem') !!}">Cek Hasil</a>
                                 </h1>
                                 @if ($hasilPemasok != null)
                                 @foreach ($kriterias as $kraa => $vakra)
@@ -162,7 +162,7 @@
 
                       <div role="tabpanel" class="tab-pane active" id="kriteriafuz">
                         <h1 class="pull-right">
-                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzKri') !!}">Generate</a>
+                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzKri') !!}">Cek Hasil</a>
                         </h1>
                         @if ($hasilFuzzyKriteria != null)
                           <h4>Rekap Bobot Akhir Kriteria</h4>
@@ -184,7 +184,7 @@
 
                       <div role="tabpanel" class="tab-pane" id="sub_kriteriafuz">
                         <h1 class="pull-right">
-                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzSub') !!}">Generate</a>
+                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzSub') !!}">Cek Hasil</a>
                         </h1>
                         @if ($hasilFuzzySub != null)
                           @php
@@ -222,7 +222,7 @@
 
                       <div role="tabpanel" class="tab-pane" id="pemasokfuz">
                         <h1 class="pull-right">
-                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzPem') !!}">Generate</a>
+                           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('gFuzPem') !!}">Cek Hasil</a>
                         </h1>
                         @if ($hasilFuzzyPemasok != null)
                           @php

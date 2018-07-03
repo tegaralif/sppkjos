@@ -26,7 +26,7 @@
 
             <!-- Logo -->
             <a href="#" class="logo">
-              <span class="logo-mini"><b>F</b>-AHP</span>
+              <span class="logo-mini"><b>S</b>Sapi</span>
                 <!-- logo for regular state and mobile devices -->
               <span class="logo-lg"><b>Sip Sip</b> - Sapi</span>
             </a>
